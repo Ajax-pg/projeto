@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma Entre 2 números</title>
+</head>
+<body>
+    <form action="/" method="POST">
+        <input type="text" name="x" placeholder="Digite o primeiro número"> <br>
+        <input type="text" name="y" placeholder="Digite o segundo número"> <br>
+        <button type="submit">Somar</button>
+    </form>
+
+    {% if resultado is not none %}
+        <p>Resultado: {{ resultado }}</p>
+    {% endif %}
+</body>
+</html>
